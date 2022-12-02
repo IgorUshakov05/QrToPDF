@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.active {
+  padding-bottom: 1px;
+  border-bottom: 3px #FC813C solid;
+  border-radius: 1px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 25px;
+  -weight: 500;
+  font-size: 20px;
+  color: #FC813C;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: #FC813C;
+}
+
+a:visited {
+  color: #FC813C;
+}
+
+.nav > li {
+  list-style: none;
+}
+
+.nav > li > img {
+  width: 160px;
+}
+
+@media only screen and (max-width: 650px) {
+  .nav {
+    padding-top: 80px;
+  }
+  a {
+    font-size: 17px;
+    font-weight: 760;
+  }
+  #textarea {
+    font-size: 17px;
+  }
+  .first {
+    position: absolute;
+    margin-top: -65px;
+  }
+}
+.mainForm {
+  width: 100%;
+  margin: auto;
+  margin-top: 90px;
+}
+
+.center {
+  width: 80%;
+  margin: auto;
+}
+
+textarea {
+  padding: 15px;
+  border: 3px solid rgba(252, 129, 60, 0.9411764706);
+  border-radius: 7px;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  resize: none;
+  font-size: #FC813C;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  outline: 0 none;
+  box-sizing: border-box;
+  transition: 1s;
+}
+
+.button {
+  width: 300px;
+  height: 55px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#button {
+  width: 100%;
+  height: 100%;
+  background-color: #FC813C;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  border-radius: 30px;
+  transition: 0.3s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  outline: none;
+}
+
+.description {
+  position: relative;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.description > p {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: rgba(252, 129, 60, 0.5882352941);
+}
+
+.pdf {
+  color: #FC813C;
+  font-weight: 700;
+}
+
+#button:hover {
+  color: rgb(255, 217, 195);
+}
+
+#button:active {
+  box-shadow: 0 0 20px #FC813C;
+}
+
+#button[disabled] {
+  background-color: rgb(255, 171, 137);
+  box-shadow: none;
+}/*# sourceMappingURL=index.css.map */

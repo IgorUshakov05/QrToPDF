@@ -1,0 +1,56 @@
+@import "_variable";
+@import "header";
+
+.content {
+  margin-top: 9rem;
+  width: 100%;
+  height: fit-content;
+  
+}
+
+.all_content {
+  width: 50%;
+  height: fit-content;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ul {
+  margin: auto;
+  list-style: none;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+p, .ul {
+  font-family: $font-family;
+  color: $color;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.ul {
+  text-align: center;
+  font-weight: 600 !important;
+  font-size: 17px !important;
+}
+
+li {
+  margin-top: 10px;
+  user-select: all !important;
+}
+.modules {
+  border-left: 3px solid $color;
+  border-right: 3px solid $color;
+  padding: 0 20px;  
+}
+
+.front_end {
+  margin-right: 10px;
+}
+
+.back_end {
+  margin-left: 10px;
+}
+

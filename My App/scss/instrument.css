@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.active {
+  padding-bottom: 1px;
+  border-bottom: 3px #FC813C solid;
+  border-radius: 1px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 25px;
+  -weight: 500;
+  font-size: 20px;
+  color: #FC813C;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: #FC813C;
+}
+
+a:visited {
+  color: #FC813C;
+}
+
+.nav > li {
+  list-style: none;
+}
+
+.nav > li > img {
+  width: 160px;
+}
+
+@media only screen and (max-width: 650px) {
+  .nav {
+    padding-top: 80px;
+  }
+  a {
+    font-size: 17px;
+    font-weight: 760;
+  }
+  #textarea {
+    font-size: 17px;
+  }
+  .first {
+    position: absolute;
+    margin-top: -65px;
+  }
+}
+.content {
+  margin-top: 9rem;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.all_content {
+  width: 50%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ul {
+  margin: auto;
+  list-style: none;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+p, .ul {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #FC813C;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.ul {
+  text-align: center;
+  font-weight: 600 !important;
+  font-size: 17px !important;
+}
+
+li {
+  margin-top: 10px;
+  -webkit-user-select: all !important;
+     -moz-user-select: all !important;
+          user-select: all !important;
+}
+
+.modules {
+  border-left: 3px solid #FC813C;
+  border-right: 3px solid #FC813C;
+  padding: 0 20px;
+}
+
+.front_end {
+  margin-right: 10px;
+}
+
+.back_end {
+  margin-left: 10px;
+}/*# sourceMappingURL=instrument.css.map */

@@ -1,8 +1,8 @@
 # TEXTtoQR - это сервис для генерации QRCode из текста!
 
-## [Задуманный дизайн сайта](https://www.figma.com/file/4vIQHuViEWcyJ4DlI9fH7U/Untitled?node-id=0%3A1&t=gt4I9VbovCowHI4D-1)
+## [Задуманный дизайн сайта (нажмите чтобы просмотреть)](https://www.figma.com/file/4vIQHuViEWcyJ4DlI9fH7U/Untitled?node-id=0%3A1&t=gt4I9VbovCowHI4D-1)
 
-## Плюсы использования нашего сервиса ( нажмите чтобы просмотреть )
+## Плюсы использования нашего сервиса 
 
 - Удобный и отзывчивый интерфейс
 - Высокая скорость генерирования файлов
